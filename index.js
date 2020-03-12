@@ -33,7 +33,8 @@ document.addEventListener("DOMContentLoaded", function(){
         movesContainer.children.item(movesArray.length).remove()
         return;
       default:
-        break;
+        alert('please only use the arrow keys and delete')
+        return;
     }
     let new_event = document.createElement("LI")
     new_event.innerText = key_direction
